@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://manutencao-e-reforma-telhado-erechi.vercel.app/sitemap.xml

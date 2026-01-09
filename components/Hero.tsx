@@ -1,5 +1,5 @@
 import React from 'react';
-import { WHATSAPP_LINK, Icons } from '../constants';
+import { WHATSAPP_LINK, Icons } from '../constants.tsx';
 
 export const Hero: React.FC = () => {
     return (

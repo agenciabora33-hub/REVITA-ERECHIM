@@ -1,7 +1,7 @@
 import React from 'react';
-import { Icons, WHATSAPP_LINK } from '../constants';
+import { Icons, WHATSAPP_LINK } from '../constants.tsx';
 
-const BenefitItem: React.FC<{ title: string; description: string; Icon: React.FC<any> }> = ({ title, description, Icon }) => (
+const BenefitItem: React.FC<{ title: string; description: string; Icon: React.FC }> = ({ title, description, Icon }) => (
     <li className="flex items-start bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
         <div className="mr-5 mt-1 shrink-0 p-2 bg-green-50 rounded-lg">
             <Icon />

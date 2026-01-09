@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { WHATSAPP_LINK } from '../constants';
+import { WHATSAPP_LINK } from '../constants.tsx';
 
 export const Header: React.FC = () => {
     const [scrolled, setScrolled] = useState(false);

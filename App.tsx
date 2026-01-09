@@ -5,7 +5,7 @@ import { Services } from './components/Services';
 import { Benefits } from './components/Benefits';
 import { Footer } from './components/Footer';
 import { Modal } from './components/Modal';
-import { WHATSAPP_LINK, Icons } from './constants';
+import { WHATSAPP_LINK, Icons } from './constants.tsx';
 
 const App: React.FC = () => {
     const [isPrivacyOpen, setPrivacyOpen] = useState(false);
